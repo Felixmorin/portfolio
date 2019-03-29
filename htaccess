@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase / 
+RewriteCond %{REQUEST_URI} cm-admin
+RewriteRule ^(.*)$ http://localhost:8888/Portfolio_copie/admin.php [R=307,L]
